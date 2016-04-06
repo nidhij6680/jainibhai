@@ -1,0 +1,28 @@
+
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>D3 Example</title>
+    <script src="file:///C:/jspproject/final/d3.min.js"  ></script>
+  </head>
+  <body>
+d3 testing shaps now
+    <svg width="250" height="250">
+      <rect x="80" y="50" width="200" height="20"></rect>
+    </svg>
+
+    <script>
+      var svg = d3.select("body").append("svg")
+        .attr("width",  250)
+        .attr("height", 250);
+      var rect = svg.append("rect")
+        .attr("x", 70)
+        .attr("y", 80)
+        .attr("width",  90)
+        .attr("height", 90);
+    </script>
+
+  </body>
+</html>
+
